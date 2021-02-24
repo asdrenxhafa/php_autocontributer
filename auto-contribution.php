@@ -1,7 +1,7 @@
 <?php
 
 // General variables
-$beginDate = '2021-01-05';
+$beginDate = '2020-01-05';
 $endDate = '2021-02-20';
 $begin = new DateTime($beginDate);
 $end = new DateTime($endDate);
