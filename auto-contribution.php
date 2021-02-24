@@ -1,8 +1,8 @@
 <?php
 
 // General variables
-$beginDate = '2017-01-05';
-$endDate = '2017-01-10';
+$beginDate = '2021-01-05';
+$endDate = '2021-02-20';
 $begin = new DateTime($beginDate);
 $end = new DateTime($endDate);
 $interval = DateInterval::createFromDateString('1 day');
@@ -30,6 +30,6 @@ foreach ($period as $dt) {
 }
 
 // Final commands.
-exec('git push origin master');
+exec('git push origin development');
 exec('git commit -am "cleanup"');
-exec('git push origin master');
+exec('git push origin development');
